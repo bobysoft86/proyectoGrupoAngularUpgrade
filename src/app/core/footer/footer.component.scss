@@ -1,0 +1,22 @@
+div {
+    background-color: #4b4837;
+    padding: 50px 20px;
+    color: white;
+
+    p {
+        text-align: center;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            padding: 20px;
+            img {
+                width: 20px;
+            }
+        }
+    }
+}
