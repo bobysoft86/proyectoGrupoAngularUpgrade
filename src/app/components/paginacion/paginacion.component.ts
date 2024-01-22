@@ -8,8 +8,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrl: './paginacion.component.scss'
 })
 export class PaginacionComponent {
-  @Input() pageNum!:number;
-
+  @Input() pageNum!:number;;
   @Output() pageEvent = new EventEmitter<number>()
 
   changePage(page:number) {
