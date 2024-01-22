@@ -17,18 +17,17 @@ export class CreateComponent {
 
   constructor(private formBuilder:FormBuilder, private apiService: ApiService ) {
     this.libro = formBuilder.group({
-      img: ["", [Validators.required]],
-      title: ["", [Validators.required]],
-      autor: ["", [Validators.required]],
-      year: [0, [Validators.required]],
-      genre: ["", [Validators.required]]
+      img: [""],
+      title: [""],
+      autor: [""],
+      year: [0],
+      genre: [""]
     })
   }
   
   getLibro() {
     this.apiService.postProducts(this.libro).subscribe(response=>{console.log('Solicitud POST exitosa:', response)})
     alert("articulo creado satisfactoriamente")
-    window.location.reload()
         console.log(this.libro);
     }
     }
