@@ -11,7 +11,7 @@ export class ApiService {
     constructor(private http: HttpClient) { }
   
     getProducts(){
-      return this.http.get("http://localhost:3000ls/products")
+      return this.http.get("http://localhost:3000/products")
     }
     postProducts(newArticle:any){
       return this.http.post("http://localhost:3000/products", newArticle)
