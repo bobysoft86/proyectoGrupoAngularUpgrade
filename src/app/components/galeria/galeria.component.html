@@ -1,3 +1,5 @@
-@for(product of productos; track $index){
-    <app-product [product]="product"></app-product>
-}
+<div class="gallery-wrapper">
+    @for(product of productos; track $index){
+        <app-product [product]="product"></app-product>
+    }
+</div>
