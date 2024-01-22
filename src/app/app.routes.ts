@@ -3,6 +3,7 @@ import { MainComponent } from './pages/main/main.component';
 import { LibreriaComponent } from './pages/libreria/libreria.component';
 import { BookComponent } from './pages/book/book.component';
 import { EditComponent } from './pages/edit/edit.component';
+import { CreateComponent } from './pages/create/create.component';
 
 export const routes: Routes = [
   {
@@ -18,7 +19,11 @@ export const routes: Routes = [
     component: BookComponent,
   },
   {
-    path: 'book/:id/edit',
+    path: 'book/edit/:id',
     component: EditComponent,
+  },
+  {
+    path: 'book/create',
+    component: CreateComponent,
   },
 ];
