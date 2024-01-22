@@ -1,6 +1,8 @@
 import { LibrosInterface } from './../../interface/libros-interface';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
+import { ApiService } from '../../services/api.service';
+
 
 @Component({
   selector: 'app-create',
@@ -13,7 +15,7 @@ export class CreateComponent {
 
   libro!:FormGroup;
 
-  constructor(private formBuilder:FormBuilder) {
+  constructor(private formBuilder:FormBuilder, private apiService: ApiService ) {
     this.libro = formBuilder.group({
       img: ["", [Validators.required]],
       title: ["", [Validators.required]],
@@ -24,8 +26,10 @@ export class CreateComponent {
   }
   
   getLibro() {
-    console.log(this.libro.value)
-  }
+    this.apiService.postProducts(this.libro).subscribe(response=>{console.log('Solicitud POST exitosa:', response)})
+    alert("articulo creado satisfactoriamente")
+    window.location.reload()
+        console.log(this.libro);
+    }
+    }
 
-
-}
