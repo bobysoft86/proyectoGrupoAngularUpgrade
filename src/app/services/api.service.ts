@@ -7,8 +7,8 @@ import { HttpClient } from '@angular/common/http';
 export class ApiService {
   constructor(private http: HttpClient) {}
 
-  getProducts() {
-    return this.http.get('http://localhost:3000/productos');
+  getProducts(page:number) {
+    return this.http.get('http://localhost:3000/productos/?_page=' + page);
   }
   postProducts(newArticle: any) {
     return this.http.post('http://localhost:3000/productos', newArticle);
