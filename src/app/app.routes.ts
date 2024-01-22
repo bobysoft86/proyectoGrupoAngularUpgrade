@@ -23,7 +23,7 @@ export const routes: Routes = [
     component: EditComponent,
   },
   {
-    path: 'book/create',
+    path: 'create',
     component: CreateComponent,
   },
 ];
