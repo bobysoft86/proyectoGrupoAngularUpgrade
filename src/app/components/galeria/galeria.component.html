@@ -1,4 +1,7 @@
 <div class="gallery-wrapper">
+    <div class="searchBox">
+        <input type="text" [(ngModel)]='Search'> <a class="searchPng" (click)="filter()"><img class="searchPng" src="https://img.freepik.com/vector-premium/icono-busqueda-simbolo-lupa-icono-contorno_543062-139.jpg" alt="press"></a>
+      </div>
     @for(product of productos; track $index){
         <app-product [product]="product"></app-product>
     }
