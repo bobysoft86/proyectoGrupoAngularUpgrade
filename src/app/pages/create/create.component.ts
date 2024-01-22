@@ -13,10 +13,11 @@ import { ApiService } from '../../services/api.service';
 })
 export class CreateComponent {
 
-  libro!:FormGroup;
+  libro:FormGroup;
 
   constructor(private formBuilder:FormBuilder, private apiService: ApiService ) {
     this.libro = formBuilder.group({
+      id:[""],
       img: [""],
       title: [""],
       autor: [""],
@@ -26,9 +27,8 @@ export class CreateComponent {
   }
   
   getLibro() {
-    this.apiService.postProducts(this.libro).subscribe(response=>{console.log('Solicitud POST exitosa:', response)})
-    alert("articulo creado satisfactoriamente")
-        console.log(this.libro);
+    this.apiService.postProducts(this.libro.value).subscribe(response=>{console.log('Solicitud POST exitosa:', response)})
+        console.log(this.libro.value);
     }
-    }
+  }
 
