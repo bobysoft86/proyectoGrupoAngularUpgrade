@@ -1,0 +1,120 @@
+[{
+    "img": "https://m.media-amazon.com/images/I/91ddMPYKaYL._AC_UF894,1000_QL80_.jpg",
+    "title" : "EL señor de los añillos",
+    "autor": "J.R.R. Tolkien",
+    "year": 1954
+},
+
+{
+    "img":"https://images.cdn3.buscalibre.com/fit-in/360x360/ba/69/ba694cd6db3336d0fd36e75377399269.jpg",
+    "title" : "Romeo y Julieta",
+    "autor": "William Shakespeare",
+    "year": 1597
+},
+
+{
+    "img":"https://m.media-amazon.com/images/I/91a24otHDHL._AC_UF894,1000_QL80_.jpg",
+    "title" : "El problema final",
+    "autor": "Arturo Pérez-Reverte",
+    "year": 2023, 
+    "genre": "Ficcion, Misterio, Suspense"
+},
+
+{
+    "img":"https://m.media-amazon.com/images/I/A1lNJP8sC6L._AC_UF894,1000_QL80_.jpg",
+    "title" : "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "year": 1967, 
+    "genre": "Novela, Ficcion "
+},
+
+{
+    "img":"https://i.pinimg.com/originals/eb/7f/6c/eb7f6c0351e62c98cb13b9a41be1d52c.jpg",
+    "title" : "Un mundo feliz",
+    "autor": "Aldous Huxley",
+    "year": 1932, 
+    "genre": "Novela, Ciencia Ficcion"
+},
+{
+    "img":"https://m.media-amazon.com/images/I/71sOSrd+JxL._AC_UF1000,1000_QL80_.jpg",
+    "title" : "1984",
+    "autor": "George Orwell",
+    "year": 1940, 
+    "genre": "Ciencia Ficcion, Ficcion Politica"
+},
+{
+    "img":"https://m.media-amazon.com/images/I/71vz8bpRQfL._AC_UF894,1000_QL80_.jpg",
+    "title" : "El Juego de Ender",
+    "autor": "Orson Scott Card",
+    "year": 1985, 
+    "genre": "Ciencia Ficcion"
+},
+{
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51xA-VXhATL.jpg",
+    "title" : "Ulises",
+    "autor": "James Joyce",
+    "year": 1920, 
+    "genre": "Novela, Ficcion"
+},
+{
+    "img":"https://m.media-amazon.com/images/I/51qhkxcMhvL._AC_UF1000,1000_QL80_.jpg",
+    "title" : "Los asesinatos de Crediton",
+    "autor": "Michael Jecks",
+    "year": 2005, 
+    "genre": "Novela historica"
+},
+{
+    "img":"https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202311/21/00106524063499____2__1200x1200.jpg",
+    "title" : "El barracón de las mujeres",
+    "autor": "Fermina Cañaverass",
+    "year": 2024, 
+    "genre": "Novela historica"
+},
+{
+    "img":"https://m.media-amazon.com/images/I/81n-hi5Qb+L._AC_UF894,1000_QL80_.jpg",
+    "title" : "Un cuento perfecto",
+    "autor": "Elisabet Benavent",
+    "year": 2020, 
+    "genre": "Novela Romantica"
+
+},
+{
+    "img":"https://m.media-amazon.com/images/I/51KADbORuBL.jpg",
+    "title" : "El viento conoce mi nombre",
+    "autor": "Isabel Allende",
+    "year": 2023, 
+    "genre": "Ficcion literaria"
+},
+{
+    "img":"https://global-uploads.webflow.com/6034d7d1f3e0f52c50b2adee/62545400f840e70253dbda7c_60463c6e926c2413419d2720_9788418395161_Madame20Bovary_CUBIERTA.jpeg",
+    "title" : "Madame Bovary",
+    "autor": "Gustave Flaubert",
+    "year": 1856, 
+    "genre": "Realismo literario"
+},
+{
+    "img":"https://www.librerias-picasso.com/imagenes/9788416/978841654045.GIF",
+    "title" : "En busca del tiempo perdido",
+    "autor": "Marcel Proust",
+    "year": 1914, 
+    "genre": "Ficcion"
+},
+{
+    "img":"https://global-uploads.webflow.com/6034d7d1f3e0f52c50b2adee/6254541d8ae4df16d4e69bc8_6034d7d1f3e0f54529b2b1a1_Crimen-y-castigo-fiodor-dostoyevski-editorial-alma.jpeg",
+    "title" : "Crimen y castigo",
+    "autor": "Fiódor Dostoyevski",
+    "year": 1866, 
+    "genre": "Ficcion filosofica"
+},
+{
+    "img":"https://m.media-amazon.com/images/I/71AVK5VIAzL._AC_UF1000,1000_QL80_.jpg",
+    "title" : "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "year": 1943, 
+    "genre": "Literatura infantil, Fabula"
+}
+
+
+
+
+]
