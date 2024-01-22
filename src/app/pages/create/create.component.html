@@ -1,32 +1,39 @@
-<form (ngSubmit)="getLibro()" [formGroup]="libro">
-    <fieldset>
-        <legend>Artículo</legend>
-        <label>
-            Título
-            <input type="text" formControlName="title" placeholder="Escribe el titulo del libro">
-        </label>
+<div class="wrapper">
 
-        <label>
-            Imagen
-            <input type="text" formControlName="img" placeholder="Introduce la url de la portada">
-        </label>
+    <form (ngSubmit)="getLibro()" [formGroup]="libro">
+        <fieldset>
+            <legend>Artículo</legend>
+            <label>
+                Título
+                <input type="text" formControlName="title" placeholder="Escribe el titulo del libro">
+            </label>
 
-        <label>
-            Autor
-            <input type="text" formControlName="autor" placeholder="Escribe el autor del libro">
-        </label>
+            <label>
+                Imagen
+                <input type="text" formControlName="img" placeholder="Introduce la url de la portada">
+            </label>
 
-        <label>
-            Año
-            <input type="number" formControlName="year" placeholder="Escribe el año de publicacion">
-        </label>
+            <label>
+                Autor
+                <input type="text" formControlName="autor" placeholder="Escribe el autor del libro">
+            </label>
 
-        <label>
-            Género
-            <input type="text" formControlName="genre" placeholder="Escribe el genero del libro">
-        </label>
+            <div class="division">
 
-        <button (click)="getLibro()">Submit</button>
+                <label>
+                    Año
+                    <input type="number" formControlName="year" placeholder="Escribe el año de publicacion">
+                </label>
+                
+                <label>
+                    Género
+                    <input type="text" formControlName="genre" placeholder="Escribe el genero del libro">
+                </label>
+                
+            </div>
+            <button (click)="getLibro()">Submit</button>
 
-    </fieldset>
-</form>
+        </fieldset>
+    </form>
+
+</div>
