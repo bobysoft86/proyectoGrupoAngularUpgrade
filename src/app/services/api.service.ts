@@ -10,6 +10,11 @@ export class ApiService {
   getProducts(page:number) {
     return this.http.get('http://localhost:3000/productos/?_page=' + page);
   }
+
+  getAllProducts() {
+    return this.http.get('http://localhost:3000/productos');
+  }
+
   postProducts(newArticle: any) {
     return this.http.post('http://localhost:3000/productos', newArticle);
   }

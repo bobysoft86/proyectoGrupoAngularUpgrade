@@ -18,7 +18,7 @@ export class GaleriaComponent {
   page:number = 1;
   result!: LibrosInterface[];
   Search:any="";
-  
+  allProducts!: LibrosInterface[];
 
 
 
@@ -26,13 +26,20 @@ export class GaleriaComponent {
     this.servicio.getProducts(this.page).subscribe((data: any) => {
       this.productos = data;
     });
+
+    this.servicio.getAllProducts().subscribe((data: any) => {
+      this.allProducts = data;
+    });
+    
   }
 filter(){
-  this.result = this.productos.filter((search)=> search.autor.includes(this.Search));
+  console.log(this.productos);
+  this.result = this.allProducts.filter((search)=> search.title.includes(this.Search));
   this.productos = this.result;
-  console.log(this.Search)
+  // console.log(this.result);
   
 }
+
   updatePage(page:number) {
     this.servicio.getProducts(page).subscribe((data: any) => {
       this.productos = data;
