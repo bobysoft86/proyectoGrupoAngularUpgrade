@@ -11,7 +11,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
   styleUrl: './book.component.scss',
 })
 export class BookComponent {
-  id!: number;
+  id!: any;
   producto!: any;
 
   constructor(
@@ -20,16 +20,17 @@ export class BookComponent {
   ) {}
   ngOnInit(): void {
     this.rutaActiva.paramMap.subscribe((params) => {
-      this.id = Number(params.get('id'));
-      console.log(Number(params.get('id')));
-      console.log(this.id)
+      this.id = params.get('id');
+      console.log(params);
+      console.log(this.id);
     });
  
     this.servicio.getProductsid(this.id).subscribe((data: any) => {
-      this.producto = data;
-      console.log(this.producto);
+      this.producto = data.data;
+      console.log(data);
     });
   }
+  
   deleteProducto() {
     this.servicio.deleteProduct(this.id).subscribe();
     alert('Producto eliminado');
