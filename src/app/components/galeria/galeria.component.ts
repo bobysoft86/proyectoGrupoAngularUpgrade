@@ -35,9 +35,9 @@ export class GaleriaComponent {
   }
 filter(){
   console.log(this.productos);
-  this.result = this.allProducts.filter((search)=> search.title.includes(this.Search));
+  this.result = this.allProducts.filter((search)=> search.title.toLowerCase().includes(this.Search.toLowerCase()));
+
   this.productos = this.result;
-  // console.log(this.result);
   
 }
 
