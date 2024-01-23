@@ -21,9 +21,13 @@ export class BookComponent {
   ngOnInit(): void {
     this.rutaActiva.paramMap.subscribe((params) => {
       this.id = Number(params.get('id'));
+      console.log(Number(params.get('id')));
+      console.log(this.id)
     });
+ 
     this.servicio.getProductsid(this.id).subscribe((data: any) => {
       this.producto = data;
+      console.log(this.producto);
     });
   }
   deleteProducto() {

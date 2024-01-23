@@ -21,13 +21,13 @@ export class ApiService {
   }
 
   updateProduct(id: any, newArticle: any) {
-    return this.http.put(`http://localhost:3000/all-books/${id}`, newArticle);
+    return this.http.put(`http://localhost:3001/all-books/${id}`, newArticle);
   }
 
   deleteProduct(id: any) {
-    return this.http.delete(`http://localhost:3000/productos/${id}`);
+    return this.http.delete(`http://localhost:3001/all-books/${id}`);
   }
   getProductsid(id: any) {
-    return this.http.get(`http://localhost:3000/productos/${id}`);
+    return this.http.get(`http://localhost:3001/all-books/${id}`);
   }
 }
