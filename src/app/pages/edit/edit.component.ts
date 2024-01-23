@@ -23,14 +23,15 @@ export class EditComponent {
  
 
   ngOnInit() {
-    this.apiService.getProductsid(this.url[3]).subscribe((res: any) => {
-      this.libro = res;
+    this.apiService.getProductsid(this.url[2]).subscribe((res: any) => {
+      this.libro = res.data;
+      console.log(this.libro);
       console.log('soy la lista', this.libro);
     });
   };
 
   updateProduct(){
-    this.apiService.updateProduct(this.url[3],this.libro).subscribe()
+    this.apiService.updateProduct(this.url[2],this.libro).subscribe()
 
   console.log(this.libro);
 
