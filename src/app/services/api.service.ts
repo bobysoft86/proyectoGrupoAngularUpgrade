@@ -8,19 +8,20 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   getProducts(page:number) {
-    return this.http.get('http://localhost:3000/productos/?_page=' + page);
+    console.log("soygetall",this.http.get('http://localhost:3001/all-books'));
+    return this.http.get('http://localhost:3001/all-books');
   }
 
   getAllProducts() {
-    return this.http.get('http://localhost:3000/productos');
+    return this.http.get('http://localhost:3001/all-books');
   }
 
   postProducts(newArticle: any) {
-    return this.http.post('http://localhost:3000/productos', newArticle);
+    return this.http.post('http://localhost:3001/all-books', newArticle);
   }
 
   updateProduct(id: any, newArticle: any) {
-    return this.http.put(`http://localhost:3000/productos/${id}`, newArticle);
+    return this.http.put(`http://localhost:3000/all-books/${id}`, newArticle);
   }
 
   deleteProduct(id: any) {

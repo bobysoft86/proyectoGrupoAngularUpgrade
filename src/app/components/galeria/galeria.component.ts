@@ -24,11 +24,12 @@ export class GaleriaComponent {
 
   constructor(private servicio: ApiService) {
     this.servicio.getProducts(this.page).subscribe((data: any) => {
-      this.productos = data;
+      this.productos = data.data;
+
     });
 
     this.servicio.getAllProducts().subscribe((data: any) => {
-      this.allProducts = data;
+      this.allProducts = data.data;
     });
     
   }

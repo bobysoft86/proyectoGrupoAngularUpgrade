@@ -7,6 +7,6 @@
         <p>{{producto.genre}}</p> 
     </div>
     <button routerLink="/">Volver</button>
-    <button routerLink="book/edit/:id" >Editar</button>
+    <button routerLink="book/edit/{{producto.id}}" >Editar</button>
     <button (click)="deleteProducto()" >Eliminar</button>
 </div>

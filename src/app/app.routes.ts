@@ -19,7 +19,7 @@ export const routes: Routes = [
     component: BookComponent,
   },
   {
-    path: 'book/edit/:id',
+    path: 'edit/:id',
     component: EditComponent,
   },
   {

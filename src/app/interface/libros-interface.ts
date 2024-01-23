@@ -1,5 +1,5 @@
 export interface LibrosInterface {
-    id:number;
+    id:string;
     img:string;
     title:string;
     autor:string;
