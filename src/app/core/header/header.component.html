@@ -1,17 +1,21 @@
 <header>
-    <img src="assets/img/logo.jpg" alt="Plumas Literarias">
+    <img src="assets/img/logo.jpg" alt="Plumas Literarias" class="logo">
     <p>PLUMAS LITERARIAS</p>
-    <nav>
-        <ul>
-            <li routerLink="/">
-                <a>INICIO</a>
-            </li>
-            <li routerLink="/libreria">
-                <a>LIBROS</a>
-            </li>
-            <li routerLink="/create">
-                <a>AÑADIR LIBRO</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="wrapper">
+        <img src="assets/img/menu.png" alt="" class="burguer-icon" (click)="openBurguer()">
+        <nav class="hidden" [ngClass]="burguerOpen ? 'open' : 'closed'">
+            <img src="assets/img/cerrar.png" alt="" class="close-icon" (click)="closeBurguer()">
+            <ul>
+                <li routerLink="/">
+                    <a>INICIO</a>
+                </li>
+                <li routerLink="/libreria">
+                    <a>LIBROS</a>
+                </li>
+                <li routerLink="/create">
+                    <a>AÑADIR LIBRO</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </header>

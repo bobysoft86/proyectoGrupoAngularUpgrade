@@ -3,8 +3,11 @@ div {
     padding: 50px 20px;
     color: white;
 
-    p {
+    .title {
         text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
     }
 
     ul {
@@ -14,8 +17,14 @@ div {
 
         li {
             padding: 20px;
-            img {
-                width: 20px;
+
+            a {
+                display: flex;
+                gap: 10px;
+                text-decoration: none;
+                img {
+                    width: 20px;
+                }
             }
         }
     }
