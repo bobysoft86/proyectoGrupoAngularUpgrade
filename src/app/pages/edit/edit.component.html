@@ -1,33 +1,53 @@
-<div class="inputs">
-    <h1>Creación/edición de productos</h1>
-    <p> id:</p>
-    <input  type="text"  [(ngModel)]='libro.id' >
-   <p> imagen:</p>
-    <input [(ngModel)]='libro.img' type="text" placeholder="Por ej: 9.50">
-    <p> titulo</p>
-    <input [(ngModel)]='libro.title' type="text" placeholder="Por ej: Lo más vendido este mes">
-   <p>  Ruta de la autor</p>
-    <input [(ngModel)]='libro.autor' type="text" placeholder="Por ej: Lo más vendido este mes">
-    <p> year:</p>
-    <input [(ngModel)]='libro.year' type="text" placeholder="Por ej: 4.28">
-    <p> genre:</p>
-    <input [(ngModel)]='libro.genre' type="text" placeholder="Por ej: 4.28">
+<div class="wrapper">
 
-
-    <div class="buttonsave">
-
-
-    <button (click)="updateProduct()"  class="buttonsave"    >guardar</button>
-     </div>
-</div>
-<div class="preview">
-    <div class="article">
-        <img class="productImage" src="{{libro.img}}" alt="">
-        <div>
-
-         <h2> {{libro.title}}</h2>
-         <h1>{{libro.autor}} lereles</h1>
-          <h1>{{libro.genre}} lereles</h1>
-          {{libro.year}}
+    <div class="product">
+        <div class="product-img-wrapper">
+    
+            <img src="{{libro.img}}" alt="{{libro.title}}"/>
+        </div>
+        <div class="product-info-wrapper">
+            <h3>{{libro.title}}</h3>
+            <h4>{{libro.autor}}</h4>
+            <div>
+                <p>{{libro.year}}</p>
+                <p>{{libro.genre}}</p>
+            </div>
         </div>
     </div>
+
+    <form>
+        <h1>Edición de productos</h1>
+        <label> Id
+            <input type="text" [(ngModel)]='libro.id' name="id">
+        </label>
+        
+        <label> Imagen
+            <input [(ngModel)]='libro.img' type="text" placeholder="Por ej: 9.50" name="img">
+        </label>
+        
+        <label> Título
+            <input [(ngModel)]='libro.title' type="text" placeholder="Por ej: Lo más vendido este mes" name="title">
+        </label>
+        
+        <label> Autor
+            <input [(ngModel)]='libro.autor' type="text" placeholder="Por ej: Lo más vendido este mes" name="autor">
+        </label>
+        
+        <label> Año
+            <input [(ngModel)]='libro.year' type="text" placeholder="Por ej: 4.28" name="year">
+        </label>
+        
+        <label> Género
+            <input [(ngModel)]='libro.genre' type="text" placeholder="Por ej: 4.28" name="genre">
+        </label>
+        
+        
+        
+        
+        <button (click)="updateProduct()" class="buttonsave">guardar</button>
+        
+
+    </form>
+</div>    
+
+    
