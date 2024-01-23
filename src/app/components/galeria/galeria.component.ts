@@ -41,6 +41,7 @@ filter(){
 }
 
   updatePage(page:number) {
+    this.page = page;
     this.servicio.getProducts(page).subscribe((data: any) => {
       this.productos = data;
     });
