@@ -3,11 +3,18 @@
 <div align="center">
 <h1 align="center">Hello I`m a intra for a library called Plumas literarias <img width="35" src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/waving.gif"></h1>
 <h4 align="center"> this project is created during the bootcamp in 2023/2024 in Upgrade HUb.</h4>
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="40" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="40" />  <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="40" />
-</div>
+
+
+<h3> Peple collaborated in this project</h3>
+<p> Alba de vega</p><a></a>
+<p>Carolina</p><a></a>
+<p>Cristina</p><a></a>
+<p>Francisco Aznar</p><a></a>
 
 
 ## Development server
+
+<a href="https://github.com/CarolinaAlbanS/api_libros">that´s the link of the api created for this project</a>
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
