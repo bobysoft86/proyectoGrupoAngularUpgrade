@@ -18,7 +18,7 @@
 
 ## Development server
 
-<a href="https://github.com/CarolinaAlbanS/api_libros">that´s the link of the api created for this project</a>
+<a href="https://github.com/CarolinaAlbanS/api_libros">---->API created for this project<----</a>
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
