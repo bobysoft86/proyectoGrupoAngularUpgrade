@@ -6,10 +6,14 @@
 
 
 <h3> Peple collaborated in this project</h3>
-<p> Alba de vega</p><a>https://github.com/albadvg</a>
-<p>Carolina</p><a> https://github.com/CarolinaAlbanS</a>
-<p>Cristina</p><a>https://github.com/OhMyCris</a>
+<a href="https://github.com/albadvg">Alba de vega</a>
+<a href="https://github.com/CarolinaAlbanS">Carolina</a>
+<a href="https://github.com/OhMyCris">Cristina</a>
 <p>Francisco Aznar</p><a></a>
+
+
+
+
 
 
 ## Development server
