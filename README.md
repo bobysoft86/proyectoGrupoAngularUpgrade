@@ -1,6 +1,11 @@
-# LibreriaGrupo
-ksjhadfbgkab
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+### Hello everyone! 
+
+<div align="center">
+<h1 align="center">Hello I`m a intra for a library called Plumas literarias <img width="35" src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/waving.gif"></h1>
+<h4 align="center"> this project is created during the bootcamp in 2023/2024 in Upgrade HUb.</h4>
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="40" /> <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="40" />  <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/c-original.svg" alt="C" height="40" />
+</div>
+
 
 ## Development server
 
