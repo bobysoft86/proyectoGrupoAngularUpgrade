@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { LibreriaComponent } from '../libreria/libreria.component';
 import { ApiService } from '../../services/api.service';
-import { ActivatedRoute, RouterLink } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-book',
@@ -16,7 +16,8 @@ export class BookComponent {
 
   constructor(
     private servicio: ApiService,
-    private rutaActiva: ActivatedRoute
+    private rutaActiva: ActivatedRoute,
+    private router: Router
   ) {}
   ngOnInit(): void {
     this.rutaActiva.paramMap.subscribe((params) => {
@@ -34,5 +35,6 @@ export class BookComponent {
   deleteProducto() {
     this.servicio.deleteProduct(this.id).subscribe();
     alert('Producto eliminado');
+    this.router.navigate(['/libreria'])
   }
 }
