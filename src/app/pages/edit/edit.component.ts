@@ -31,11 +31,13 @@ export class EditComponent {
   };
 
   updateProduct(){
-    this.apiService.updateProduct(this.url[2],this.libro).subscribe()
+    this.apiService.updateProduct(this.url[2],this.libro).subscribe(response=>{
+      console.log('Solicitud POST exitosa:', response)
+      alert(`Edicion en libro ${this.libro.title} realizada exitosamente`)
+      this.router.navigate(['/libreria'])
+    })
 
-  console.log(this.libro);
-
-}
+    }
 
 
 

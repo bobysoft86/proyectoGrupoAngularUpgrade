@@ -6,13 +6,13 @@
         <nav class="hidden" [ngClass]="burguerOpen ? 'open' : 'closed'">
             <img src="assets/img/cerrar.png" alt="" class="close-icon" (click)="closeBurguer()">
             <ul>
-                <li routerLink="/">
+                <li (click)="closeBurguer()" routerLink="/">
                     <a>INICIO</a>
                 </li>
-                <li routerLink="/libreria">
+                <li (click)="closeBurguer()" routerLink="/libreria">
                     <a>LIBROS</a>
                 </li>
-                <li routerLink="/create">
+                <li (click)="closeBurguer()" routerLink="/create">
                     <a>AÑADIR LIBRO</a>
                 </li>
             </ul>
