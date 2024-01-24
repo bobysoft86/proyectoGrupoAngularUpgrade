@@ -6,9 +6,9 @@
 
 
 <h3> Peple collaborated in this project</h3>
-<p> Alba de vega</p><a></a>
-<p>Carolina</p><a></a>
-<p>Cristina</p><a></a>
+<p> Alba de vega</p><a>https://github.com/albadvg</a>
+<p>Carolina</p><a> https://github.com/CarolinaAlbanS</a>
+<p>Cristina</p><a>https://github.com/OhMyCris</a>
 <p>Francisco Aznar</p><a></a>
 
 
