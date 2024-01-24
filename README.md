@@ -1,7 +1,7 @@
 ### Hello everyone! 
 
 <div align="center">
-<h1 align="center">Hello I`m a intra for a library called Plumas literarias <img width="35" src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/waving.gif"></h1>
+<img width="35" src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/waving.gif"></h1><h1 align="center">Hello I`m a intra for a library called Plumas literarias <img width="35" src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/waving.gif"></h1>
 <h4 align="center"> this project is created during the bootcamp in 2023/2024 in Upgrade HUb.</h4>
 
 
